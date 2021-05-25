@@ -1,2 +1,2 @@
 # MyChromeExtensions
-Contains few extensions that adds functionality to browser
+Built extensions that adds few functionalities to browser
