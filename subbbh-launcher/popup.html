@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Subbbh Launcher</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" 
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" 
+        crossorigin="anonymous"> -->
+        
+        <style>
+
+            html, body{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                margin: 0;
+                min-height: 180px;
+                padding: 0;
+                width: 384px;
+            }
+
+            h1{
+                text-align: center;
+                font-family: 'Menlo', monospace;
+                font-size: 22px;
+                font-weight: 400;
+                margin: 0;
+                color: rgb(58, 29, 110);
+            }
+             
+            a:link, a:visited{
+                color: black;
+                outline: 0;
+                text-decoration: none;
+            }
+
+            #mylogo{
+                width: 35px;
+                vertical-align: middle;
+                font-size: 32px;
+                /*vertical-align: text-bottom;
+                margin-right: 12px;*/
+            }
+
+            .modal-header{
+                align-items: center;
+                border-bottom: 0.5px solid #dadadad2 ;
+            }
+
+            .modal-content{
+                padding: 0 22px;
+                text-align: center;
+            }
+
+            .modal-icons{
+                border-top: 0.5px solid #dadadad2;
+                height: 50px;
+                width: 100%;
+            }
+
+            .logo{
+                padding: 16px;
+            }
+
+            .version{
+                color: rgb(48, 24, 94);
+                font-size: 18px;
+            }
+
+            .flex-container{
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 22px;
+            }
+
+            .flex{
+                opacity: 1;
+                transition: opacity 0.2s ease-in-out ;
+                width: 120px;
+            }
+            /*.flex:hover{
+                opacity: 0.5;
+            }*/
+            .flex .fa, .flex .fab{
+                font-size: 40px;
+                color: rgb(43, 22, 83);
+            }
+            .flex .fa:hover, .flex .fab:hover{
+                font-size: 45px;
+                color: rgb(43, 22, 83);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="modal-header">
+            <h1 class="logo">
+                <i id="mylogo" class="far fa-user-circle"></i>
+                <!-- <img src="logo2.png" alt="Subbbh Launcher" class="logo-icon">  -->
+                Subbbh Launcher <span class="version">(1.0.0)</span>
+
+            </h1>
+        </div>
+
+        <div class="modal-content">
+            <p>Easily Access Your Social Media Sites</p>
+        </div>
+        <div class="modal-icons">
+            <div class="flex-container">
+                <div class="flex">
+                    <a href="https://www.subashreevs.ml" target="_blank">
+                        <i class="fa fa-globe"></i>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://www.linkedin.com/in/suba-shree-v-s-723b12134" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="https://github.com/subashree188" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://twitter.com/subbbh1" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://m.facebook.com/profile.php?id=100025230572644&ref=content_filter" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://www.instagram.com/subbbh" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <script src="popup.js"></script>
+    </body>
+</html>
